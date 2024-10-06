@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Tic-Tac-Toe Game built with React! This is a simple implementation of the classic Tic-Tac-Toe game where two players (X and O) take turns to fill a 3x3 grid. The game ends when one player achieves three marks in a row (horizontally, vertically, or diagonally) or when there is a tie.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Interactive 3x3 grid where players can click to place their mark ("X" or "O").
+Displays the current game status: Next player, Winner, or Tie.
+Ability to reset the game and start a new round.
+Different colors for X and O on the board.
+Message: "Welcome to Tic Tac Toe Game" at the top.
 
-### `npm start`
+## How to Run This Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before you begin, ensure you have Node.js and npm (Node Package Manager) installed on your machine.
 
-### `npm test`
+### Steps to Run the Application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the repository:
 
-### `npm run build`
+git clone https://github.com/amal-alex07/Tic-Tac-Toe.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd tic-tac-toe
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install the required dependencies:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open the application: Once the development server has started, the app will automatically open in your default web browser. If it doesn't, you can manually navigate to http://localhost:3000 in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Running Tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If your app includes unit tests or integration tests, you can run them using:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm test
 
-### Code Splitting
+## Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To create a production build of the application, run the following command:
 
-### Analyzing the Bundle Size
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This will generate optimized static files in the build/ directory.
 
-### Making a Progressive Web App
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+/src: Contains the source code, including components like Board and Square.
+App.js: Main application file where the game logic and components are implemented.
+App.css: Contains the CSS styles for the Tic-Tac-Toe game.
+public/: Contains the static files such as the HTML template.
 
-### Advanced Configuration
+## Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Modify the colors for "X" and "O" by editing the styles in App.css.
+Adjust the heading message or add new features to make the game your own.
 
-### Deployment
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+React: A JavaScript library for building user interfaces.
+Node.js: JavaScript runtime used for the development server.
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
